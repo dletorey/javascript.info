@@ -75,4 +75,11 @@ null === +"\n0\n" // false
 
   */
 
-  
+  /* The Name of JavaScript - https://javascript.info/ifelse#the-name-of-javascript */
+
+let question = prompt("What's the real name of JavaScript");
+if (question == "ECMAScript") {
+    alert("Right!");
+} else {
+    alert("Didn't know? ECMAScript!");
+}
