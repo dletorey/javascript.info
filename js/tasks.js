@@ -10,7 +10,10 @@ name = "John";
 admin = name;
 alert(admin);
 */
-// https://javascript.info/variables#giving-the-right-name
+
+/* https://javascript.info/variables#giving-the-right-name
 
 const ourPlanet;
 let planetVisitor;
+
+*/
