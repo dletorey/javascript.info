@@ -85,7 +85,7 @@ if (question == "ECMAScript") {
 }
 
  */
-/* Show the sign https://javascript.info/ifelse#show-the-sign */
+/* Show the sign https://javascript.info/ifelse#show-the-sign 
 
 let num = prompt("Enter a number",0);
 if (num > 0) {
@@ -95,3 +95,4 @@ if (num > 0) {
 } else {
     alert("0");
 }
+*/
