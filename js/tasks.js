@@ -47,7 +47,7 @@ null + 1 // 1
 undefined + 1 // 1
 */
 
-/* https://javascript.info/operators#the-postfix-and-prefix-forms */
+/* https://javascript.info/operators#the-postfix-and-prefix-forms 
 
 let a = 1, b = 1;
 
@@ -55,3 +55,5 @@ let c = ++a; // 2
 let d = b++; // 1
 alert(c);
 alert(d);
+
+*/
