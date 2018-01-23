@@ -68,7 +68,11 @@ null == "\n0\n" // false
 null === +"\n0\n" // false
  */
 
- /* A simple Page https://javascript.info/alert-prompt-confirm#a-simple-page */
+ /* A simple Page https://javascript.info/alert-prompt-confirm#a-simple-page
 
  let name = prompt("What is your name?", "Dave");
  alert(name);
+
+  */
+
+  
