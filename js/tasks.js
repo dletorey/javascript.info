@@ -96,3 +96,21 @@ if (num > 0) {
     alert("0");
 }
 */
+
+/* Check the login https://javascript.info/ifelse#check-the-login */
+
+let login = prompt("Who's there?");
+if (login == null) {
+    alert("Cancelled");
+} else if (login != "Admin") {
+    alert("I don't know you");
+} else {
+    let pwd = prompt("Password?")
+    if (pwd == null) {
+        alert("Cancelled!");
+    } else if (pwd != "TheMaster") {
+        alert("Wrong Password");
+    } else {
+        alert ("Welcome");
+    }
+}
