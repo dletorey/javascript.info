@@ -29,7 +29,7 @@ alert( `hello ${name}` ); // hello Ilya
 
  */
 
- /* https://javascript.info/type-conversions#type-conversions */
+ /* https://javascript.info/type-conversions#type-conversions 
 
  "" + 1 + 0 // 1
 "" - 1 + 0 // -1
@@ -45,3 +45,4 @@ true + false // 1
 "  -9\n" - 5 //NaN
 null + 1 // 1
 undefined + 1 // 1
+*/
