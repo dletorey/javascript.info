@@ -97,7 +97,7 @@ if (num > 0) {
 }
 */
 
-/* Check the login https://javascript.info/ifelse#check-the-login */
+/* Check the login https://javascript.info/ifelse#check-the-login 
 
 let login = prompt("Who's there?");
 if (login == null) {
@@ -114,3 +114,5 @@ if (login == null) {
         alert ("Welcome");
     }
 }
+
+*/
