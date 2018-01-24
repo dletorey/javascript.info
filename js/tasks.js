@@ -238,3 +238,15 @@ if (browser === "Edge") {
 //         return ("The numbers are equal");
 //     }
 // }
+
+/* Function pow(x,n) - https://javascript.info/function-basics#function-pow-x-n */
+
+function pow(x,n) {
+    let powerTo = x ** n;
+    return powerTo;
+}
+let num = prompt("chose a number");
+let power = prompt("choose a power to");
+let x = Number.parseFloat(num);
+let n = Number.parseFloat(power);
+alert(pow(x,n));
