@@ -185,7 +185,7 @@ for (let i = 2; i <= num; i++ ) {
 //     default:
 //       alert( 'We hope that this page looks ok!' );
 //   }
-
+/*
 let browser = prompt ("Which Browser are you using");
 if (browser === "Edge") {
     alert ("You've got the Edge!");
@@ -194,3 +194,4 @@ if (browser === "Edge") {
 } else {
     alert ("We hope the page looks OK!");
 }
+*/
