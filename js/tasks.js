@@ -146,3 +146,23 @@ while ( i <= 100) {
 }
 
 */
+
+/* Output Prime Numbers https://javascript.info/while-for#output-prime-numbers */
+
+// For each i in the interval {
+//     check if i has a divisor from 1..i
+//     if yes => the value is not a prime
+//     if no => the value is a prime, show it
+//   }
+
+let str = prompt("Enter a numbe to list Prime Numbers up until");
+let num = Number.parseFloat(str);
+nextPrime:
+for (let i = 2; i <= num; i++ ) {
+    for (let test = 2; test < num; test++) {
+        if (i % test == 0) {
+            continue nextPrime;
+        }
+        console.log(i);
+    }
+}
