@@ -116,3 +116,11 @@ if (login == null) {
 }
 
 */
+
+/* Output Even Numbers https://javascript.info/while-for#output-even-numbers-in-the-loop */
+
+for (let i = 0; i <= 10; i++) {
+    if (i%2 == 0){
+        alert(i);
+    }
+}
