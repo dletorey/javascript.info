@@ -229,12 +229,12 @@ if (browser === "Edge") {
 // }
 /* Function min(a, b) - https://javascript.info/function-basics#function-min-a-b */
 
-function min(a,b) {
-    if (a < b) {
-        return a;
-    } else if (a > b) {
-        return b;
-    } else {
-        return ("The numbers are equal");
-    }
-}
+// function min(a,b) {
+//     if (a < b) {
+//         return a;
+//     } else if (a > b) {
+//         return b;
+//     } else {
+//         return ("The numbers are equal");
+//     }
+// }
