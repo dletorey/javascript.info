@@ -167,3 +167,30 @@ for (let i = 2; i <= num; i++ ) {
     }
 }
 */
+
+/* Rewrite the switch into an if - https://javascript.info/switch#rewrite-the-switch-into-an-if */
+
+// switch (browser) {
+//     case 'Edge':
+//       alert( "You've got the Edge!" );
+//       break;
+//   
+//     case 'Chrome':
+//     case 'Firefox':
+//     case 'Safari':
+//     case 'Opera':
+//       alert( 'Okay we support these browsers too' );
+//       break;
+//   
+//     default:
+//       alert( 'We hope that this page looks ok!' );
+//   }
+
+let browser = prompt ("Which Browser are you using");
+if (browser === "Edge") {
+    alert ("You've got the Edge!");
+} else if (browser === "Chrome" || browser === "Firefox" || browser === "Safari" || browser === "Opera") {
+    alert("We support those browsers too");
+} else {
+    alert ("We hope the page looks OK!");
+}
