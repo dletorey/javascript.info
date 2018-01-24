@@ -147,7 +147,7 @@ while ( i <= 100) {
 
 */
 
-/* Output Prime Numbers https://javascript.info/while-for#output-prime-numbers */
+/* Output Prime Numbers https://javascript.info/while-for#output-prime-numbers 
 
 // For each i in the interval {
 //     check if i has a divisor from 1..i
@@ -166,3 +166,4 @@ for (let i = 2; i <= num; i++ ) {
         console.log(i);
     }
 }
+*/
