@@ -137,10 +137,12 @@ for (let i = 0; i <= 10; i++) {
 //    i++;
 //}
 
-/* Repeat until correct input https://javascript.info/while-for#repeat-until-the-input-is-correct */
+/* Repeat until correct input https://javascript.info/while-for#repeat-until-the-input-is-correct 
 
 let i = 0;
 while ( i <= 100) {
     i = prompt("enter a number");
     alert(i);
 }
+
+*/
