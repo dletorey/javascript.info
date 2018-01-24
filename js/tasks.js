@@ -227,3 +227,14 @@ if (browser === "Edge") {
 //         break;
 //     }
 // }
+/* Function min(a, b) - https://javascript.info/function-basics#function-min-a-b */
+
+function min(a,b) {
+    if (a < b) {
+        return a;
+    } else if (a > b) {
+        return b;
+    } else {
+        return ("The numbers are equal");
+    }
+}
