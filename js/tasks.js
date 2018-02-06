@@ -285,9 +285,7 @@ function isEmpty(obj) {
   alert( isEmpty(schedule) ); // false
    */
 
-/* Sum object properties https://javascript.info/object#sum-object-properties */
-
-
+/* Sum object properties https://javascript.info/object#sum-object-properties 
 
 let salaries = {
     John: 100,
@@ -300,3 +298,23 @@ for (let key in salaries) {
     total = total + salaries[key];
 }
 alert (total);
+*/
+
+/* Multiply numeric properties by 2 https://javascript.info/object#multiply-numeric-properties-by-2
+
+// before the call
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+  };
+  
+  multiplyNumeric(menu);
+  
+  // after the call
+  menu = {
+    width: 400,
+    height: 600,
+    title: "My menu"
+  };
+   */
