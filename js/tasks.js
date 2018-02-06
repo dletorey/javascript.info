@@ -267,7 +267,7 @@ delete user.name;
 alert (user.name);
 */
 
-/* check for emptiness  */
+/* check for emptiness 
 
 function isEmpty(obj) {
     for (let key in obj) {
@@ -283,3 +283,20 @@ function isEmpty(obj) {
   schedule["8:30"] = "get up";
 
   alert( isEmpty(schedule) ); // false
+   */
+
+/* Sum object properties https://javascript.info/object#sum-object-properties */
+
+
+
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+  }
+
+let total = 0;
+for (let key in salaries) {
+    total = total + salaries[key];
+}
+alert (total);
