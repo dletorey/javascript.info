@@ -250,3 +250,20 @@ if (browser === "Edge") {
 // let x = Number.parseFloat(num);
 // let n = Number.parseFloat(power);
 // alert(pow(x,n));
+
+
+/* Hello, object https://javascript.info/object#hello-object 
+
+let user = {};
+
+user.name = "john";
+alert (user.name);
+user.surname = "smith";
+alert (user.surname);
+
+user.name = "pete";
+alert (user.name);
+delete user.name;
+alert (user.name);
+*/
+
