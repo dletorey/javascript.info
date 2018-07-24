@@ -319,8 +319,7 @@ let menu = {
   };
    */
 
-  /* Create Calculator https://javascript.info/object-methods#create-a-calculator */
-
+  /* Create Calculator https://javascript.info/object-methods#create-a-calculator 
   let calculator = {
     sum() {
         return this.a + this.b;
@@ -337,4 +336,21 @@ let menu = {
   calculator.read();
   alert( calculator.sum() );
   alert( calculator.mul() );
-  
+  */
+
+  /* Chaining */
+  let ladder = {
+    step: 0,
+    up() {
+      this.step++;
+      return this;
+    },
+    down() {
+      this.step--;
+      return this;
+    },
+    showStep: function() { // shows the current step
+      alert( this.step );
+      return this;
+    }
+  };
