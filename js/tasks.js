@@ -338,7 +338,7 @@ let menu = {
   alert( calculator.mul() );
   */
 
-  /* Chaining */
+  /* Chaining
   let ladder = {
     step: 0,
     up() {
@@ -353,4 +353,10 @@ let menu = {
       alert( this.step );
       return this;
     }
-  };
+  }; 
+   */
+
+/* Sum numbers from visitor */
+let a = +prompt("1st number?");
+let b = +prompt("2nd number?");
+alert(a + b);
