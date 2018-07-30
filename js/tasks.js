@@ -361,7 +361,7 @@ let a = +prompt("1st number?");
 let b = +prompt("2nd number?");
 alert(a + b);
 */
-/* Repeat until the input is a number https://javascript.info/number#repeat-until-the-input-is-a-number */
+/* Repeat until the input is a number https://javascript.info/number#repeat-until-the-input-is-a-number
 function readNumber(){
     let num;
     do {
@@ -371,3 +371,13 @@ function readNumber(){
     return +num;
   };
   alert (`Read ${readNumber()}`);
+ */
+
+ /* A random number from min to max https://javascript.info/number#a-random-number-from-min-to-max */
+
+ function randomNum() {
+    let min = +prompt("1st number?");
+    let max = +prompt("2nd number?");
+    alert(Math.random(min, max)*10);
+ };
+ randomNum();
