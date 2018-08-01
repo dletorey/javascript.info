@@ -374,10 +374,37 @@ function readNumber(){
  */
 
  /* A random number from min to max https://javascript.info/number#a-random-number-from-min-to-max */
-
- function randomNum() {
+/* Wrong answer */
+/*
+function randomNum() {
     let min = +prompt("1st number?");
     let max = +prompt("2nd number?");
     alert(Math.random(min, max)*10);
  };
  randomNum();
+ */
+/* Correct answer */
+/*
+function random(min, max) {
+    return min + Math.random() * (max - min);
+  }
+  
+  alert( random(1, 5) );
+  alert( random(1, 5) );
+  alert( random(1, 5) );
+*/
+
+/* Test type ahead */
+
+function typeAhead() {
+    let textInput;
+    textInput = prompt();
+    let i = 0;
+    while (i != textInput.length) {
+        let char = textInput[i];
+        alert(char);
+        document.getElementById("typeAhead").innerHTML += char;
+        i++;
+    }
+};
+typeAhead();
